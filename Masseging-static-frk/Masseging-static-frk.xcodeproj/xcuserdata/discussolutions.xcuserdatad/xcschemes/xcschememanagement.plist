@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Masseging-static-frk.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>650F12661F696B4B008CB3BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>650F127A1F696B4C008CB3BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>650F12851F696B4C008CB3BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

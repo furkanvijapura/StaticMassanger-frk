@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		650F126B1F696B4B008CB3BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650F126A1F696B4B008CB3BB /* AppDelegate.swift */; };
+		650F126D1F696B4B008CB3BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650F126C1F696B4B008CB3BB /* ViewController.swift */; };
+		650F12701F696B4B008CB3BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650F126E1F696B4B008CB3BB /* Main.storyboard */; };
+		650F12721F696B4B008CB3BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 650F12711F696B4B008CB3BB /* Assets.xcassets */; };
+		650F12751F696B4B008CB3BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650F12731F696B4B008CB3BB /* LaunchScreen.storyboard */; };
+		650F12801F696B4C008CB3BB /* Masseging_static_frkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650F127F1F696B4C008CB3BB /* Masseging_static_frkTests.swift */; };
+		650F128B1F696B4C008CB3BB /* Masseging_static_frkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650F128A1F696B4C008CB3BB /* Masseging_static_frkUITests.swift */; };
+		65D924CD1F6A560C00F97083 /* BubbleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D924CC1F6A560C00F97083 /* BubbleTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		650F127C1F696B4C008CB3BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 650F125F1F696B4B008CB3BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 650F12661F696B4B008CB3BB;
+			remoteInfo = "Masseging-static-frk";
+		};
+		650F12871F696B4C008CB3BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 650F125F1F696B4B008CB3BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 650F12661F696B4B008CB3BB;
+			remoteInfo = "Masseging-static-frk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		650F12671F696B4B008CB3BB /* Masseging-static-frk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Masseging-static-frk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		650F126A1F696B4B008CB3BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		650F126C1F696B4B008CB3BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		650F126F1F696B4B008CB3BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		650F12711F696B4B008CB3BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		650F12741F696B4B008CB3BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		650F12761F696B4B008CB3BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		650F127B1F696B4C008CB3BB /* Masseging-static-frkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Masseging-static-frkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		650F127F1F696B4C008CB3BB /* Masseging_static_frkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Masseging_static_frkTests.swift; sourceTree = "<group>"; };
+		650F12811F696B4C008CB3BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		650F12861F696B4C008CB3BB /* Masseging-static-frkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Masseging-static-frkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		650F128A1F696B4C008CB3BB /* Masseging_static_frkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Masseging_static_frkUITests.swift; sourceTree = "<group>"; };
+		650F128C1F696B4C008CB3BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D924CC1F6A560C00F97083 /* BubbleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		650F12641F696B4B008CB3BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650F12781F696B4C008CB3BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650F12831F696B4C008CB3BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		650F125E1F696B4B008CB3BB = {
+			isa = PBXGroup;
+			children = (
+				650F12691F696B4B008CB3BB /* Masseging-static-frk */,
+				650F127E1F696B4C008CB3BB /* Masseging-static-frkTests */,
+				650F12891F696B4C008CB3BB /* Masseging-static-frkUITests */,
+				650F12681F696B4B008CB3BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		650F12681F696B4B008CB3BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				650F12671F696B4B008CB3BB /* Masseging-static-frk.app */,
+				650F127B1F696B4C008CB3BB /* Masseging-static-frkTests.xctest */,
+				650F12861F696B4C008CB3BB /* Masseging-static-frkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		650F12691F696B4B008CB3BB /* Masseging-static-frk */ = {
+			isa = PBXGroup;
+			children = (
+				650F126A1F696B4B008CB3BB /* AppDelegate.swift */,
+				650F126C1F696B4B008CB3BB /* ViewController.swift */,
+				65D924CC1F6A560C00F97083 /* BubbleTableViewCell.swift */,
+				650F126E1F696B4B008CB3BB /* Main.storyboard */,
+				650F12711F696B4B008CB3BB /* Assets.xcassets */,
+				650F12731F696B4B008CB3BB /* LaunchScreen.storyboard */,
+				650F12761F696B4B008CB3BB /* Info.plist */,
+			);
+			path = "Masseging-static-frk";
+			sourceTree = "<group>";
+		};
+		650F127E1F696B4C008CB3BB /* Masseging-static-frkTests */ = {
+			isa = PBXGroup;
+			children = (
+				650F127F1F696B4C008CB3BB /* Masseging_static_frkTests.swift */,
+				650F12811F696B4C008CB3BB /* Info.plist */,
+			);
+			path = "Masseging-static-frkTests";
+			sourceTree = "<group>";
+		};
+		650F12891F696B4C008CB3BB /* Masseging-static-frkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				650F128A1F696B4C008CB3BB /* Masseging_static_frkUITests.swift */,
+				650F128C1F696B4C008CB3BB /* Info.plist */,
+			);
+			path = "Masseging-static-frkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		650F12661F696B4B008CB3BB /* Masseging-static-frk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650F128F1F696B4C008CB3BB /* Build configuration list for PBXNativeTarget "Masseging-static-frk" */;
+			buildPhases = (
+				650F12631F696B4B008CB3BB /* Sources */,
+				650F12641F696B4B008CB3BB /* Frameworks */,
+				650F12651F696B4B008CB3BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Masseging-static-frk";
+			productName = "Masseging-static-frk";
+			productReference = 650F12671F696B4B008CB3BB /* Masseging-static-frk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		650F127A1F696B4C008CB3BB /* Masseging-static-frkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650F12921F696B4C008CB3BB /* Build configuration list for PBXNativeTarget "Masseging-static-frkTests" */;
+			buildPhases = (
+				650F12771F696B4C008CB3BB /* Sources */,
+				650F12781F696B4C008CB3BB /* Frameworks */,
+				650F12791F696B4C008CB3BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				650F127D1F696B4C008CB3BB /* PBXTargetDependency */,
+			);
+			name = "Masseging-static-frkTests";
+			productName = "Masseging-static-frkTests";
+			productReference = 650F127B1F696B4C008CB3BB /* Masseging-static-frkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		650F12851F696B4C008CB3BB /* Masseging-static-frkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650F12951F696B4C008CB3BB /* Build configuration list for PBXNativeTarget "Masseging-static-frkUITests" */;
+			buildPhases = (
+				650F12821F696B4C008CB3BB /* Sources */,
+				650F12831F696B4C008CB3BB /* Frameworks */,
+				650F12841F696B4C008CB3BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				650F12881F696B4C008CB3BB /* PBXTargetDependency */,
+			);
+			name = "Masseging-static-frkUITests";
+			productName = "Masseging-static-frkUITests";
+			productReference = 650F12861F696B4C008CB3BB /* Masseging-static-frkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		650F125F1F696B4B008CB3BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = discussolutions;
+				TargetAttributes = {
+					650F12661F696B4B008CB3BB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4F24E8B33R;
+						ProvisioningStyle = Automatic;
+					};
+					650F127A1F696B4C008CB3BB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4F24E8B33R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 650F12661F696B4B008CB3BB;
+					};
+					650F12851F696B4C008CB3BB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4F24E8B33R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 650F12661F696B4B008CB3BB;
+					};
+				};
+			};
+			buildConfigurationList = 650F12621F696B4B008CB3BB /* Build configuration list for PBXProject "Masseging-static-frk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 650F125E1F696B4B008CB3BB;
+			productRefGroup = 650F12681F696B4B008CB3BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				650F12661F696B4B008CB3BB /* Masseging-static-frk */,
+				650F127A1F696B4C008CB3BB /* Masseging-static-frkTests */,
+				650F12851F696B4C008CB3BB /* Masseging-static-frkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		650F12651F696B4B008CB3BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650F12751F696B4B008CB3BB /* LaunchScreen.storyboard in Resources */,
+				650F12721F696B4B008CB3BB /* Assets.xcassets in Resources */,
+				650F12701F696B4B008CB3BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650F12791F696B4C008CB3BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650F12841F696B4C008CB3BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		650F12631F696B4B008CB3BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D924CD1F6A560C00F97083 /* BubbleTableViewCell.swift in Sources */,
+				650F126D1F696B4B008CB3BB /* ViewController.swift in Sources */,
+				650F126B1F696B4B008CB3BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650F12771F696B4C008CB3BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650F12801F696B4C008CB3BB /* Masseging_static_frkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650F12821F696B4C008CB3BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650F128B1F696B4C008CB3BB /* Masseging_static_frkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		650F127D1F696B4C008CB3BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 650F12661F696B4B008CB3BB /* Masseging-static-frk */;
+			targetProxy = 650F127C1F696B4C008CB3BB /* PBXContainerItemProxy */;
+		};
+		650F12881F696B4C008CB3BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 650F12661F696B4B008CB3BB /* Masseging-static-frk */;
+			targetProxy = 650F12871F696B4C008CB3BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		650F126E1F696B4B008CB3BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				650F126F1F696B4B008CB3BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		650F12731F696B4B008CB3BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				650F12741F696B4B008CB3BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		650F128D1F696B4C008CB3BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		650F128E1F696B4C008CB3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		650F12901F696B4C008CB3BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4F24E8B33R;
+				INFOPLIST_FILE = "Masseging-static-frk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "discusit.Masseging-static-frk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		650F12911F696B4C008CB3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4F24E8B33R;
+				INFOPLIST_FILE = "Masseging-static-frk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "discusit.Masseging-static-frk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		650F12931F696B4C008CB3BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4F24E8B33R;
+				INFOPLIST_FILE = "Masseging-static-frkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "discusit.Masseging-static-frkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Masseging-static-frk.app/Masseging-static-frk";
+			};
+			name = Debug;
+		};
+		650F12941F696B4C008CB3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4F24E8B33R;
+				INFOPLIST_FILE = "Masseging-static-frkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "discusit.Masseging-static-frkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Masseging-static-frk.app/Masseging-static-frk";
+			};
+			name = Release;
+		};
+		650F12961F696B4C008CB3BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4F24E8B33R;
+				INFOPLIST_FILE = "Masseging-static-frkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "discusit.Masseging-static-frkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Masseging-static-frk";
+			};
+			name = Debug;
+		};
+		650F12971F696B4C008CB3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4F24E8B33R;
+				INFOPLIST_FILE = "Masseging-static-frkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "discusit.Masseging-static-frkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Masseging-static-frk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		650F12621F696B4B008CB3BB /* Build configuration list for PBXProject "Masseging-static-frk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650F128D1F696B4C008CB3BB /* Debug */,
+				650F128E1F696B4C008CB3BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650F128F1F696B4C008CB3BB /* Build configuration list for PBXNativeTarget "Masseging-static-frk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650F12901F696B4C008CB3BB /* Debug */,
+				650F12911F696B4C008CB3BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650F12921F696B4C008CB3BB /* Build configuration list for PBXNativeTarget "Masseging-static-frkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650F12931F696B4C008CB3BB /* Debug */,
+				650F12941F696B4C008CB3BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650F12951F696B4C008CB3BB /* Build configuration list for PBXNativeTarget "Masseging-static-frkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650F12961F696B4C008CB3BB /* Debug */,
+				650F12971F696B4C008CB3BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 650F125F1F696B4B008CB3BB /* Project object */;
+}
